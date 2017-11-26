@@ -4,7 +4,7 @@ public class GitDemoDao {
 
 	public String getRecords() {
 		// TODO Auto-generated method stub
-		return "records";
+		return "arraylist of git records";
 		
 	}
 
