@@ -15,7 +15,7 @@ public class GitDemoController {
 	
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String sayHello() {
-		return "Astalavista baby";
+		return "Sun is shining";
 	}
 	
 	@RequestMapping(value="/getRecords", method=RequestMethod.GET)
