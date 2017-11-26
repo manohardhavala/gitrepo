@@ -13,8 +13,10 @@ public class GitDemoService {
 
 	public String getRecords() {
 		// TODO Auto-generated method stub
+
 		for(int i=0;i<50;i++) {
 			System.out.println("count " + i++);
+
 		}
 		return dao.getRecords();
 	}
