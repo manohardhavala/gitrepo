@@ -13,6 +13,9 @@ public class GitDemoService {
 
 	public String getRecords() {
 		// TODO Auto-generated method stub
+		for(int i=0;i<100;i++) {
+			System.out.println("i " + i);
+		}
 		return dao.getRecords();
 	}
 
