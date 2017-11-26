@@ -19,7 +19,7 @@ public class GitDemoController {
 			System.out.println("i " + i);
 		}
 		String str = "Sun is shining";
-		return str;
+		return str; 
 	}
 	
 	@RequestMapping(value="/getRecords", method=RequestMethod.GET)
