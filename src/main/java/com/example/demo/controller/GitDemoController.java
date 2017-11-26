@@ -15,7 +15,11 @@ public class GitDemoController {
 	
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String sayHello() {
-		return "Sun is shining";
+		for(int i=0;i<10;i++) {
+			System.out.println("i " + i);
+		}
+		String str = "Sun is shining";
+		return str;
 	}
 	
 	@RequestMapping(value="/getRecords", method=RequestMethod.GET)
