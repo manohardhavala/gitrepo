@@ -6,9 +6,8 @@ public class GitDemoDao {
 		// TODO Auto-generated method stub
 
 		
-		return "arraylist of git records";
+		return "arraylist of 123 git records";
 
-		
 	}
 
 }
